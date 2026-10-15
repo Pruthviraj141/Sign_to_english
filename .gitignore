@@ -1,0 +1,67 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Large Datasets & Recorded Videos
+# ==========================================
+# Ignore all raw video recordings and common video formats
+
+# ==========================================
+# Training Caches, Temporary Files & Backups
+# ==========================================
+artifacts/features_cache.joblib
+*.joblib.bak
+*.json.bak
+*.bak
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# ==========================================
+# Test Outputs & Screenshots
+# ==========================================
+screenshots/*
+!screenshots/.gitkeep
+
+# ==========================================
+# Logs & Testing Artifacts
+# ==========================================
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Build & Distribution
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
